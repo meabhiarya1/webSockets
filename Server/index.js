@@ -13,6 +13,6 @@ const wss = new WebSocketServer({ server });
 wss.on("connection", (ws) => {
   ws.on("message", (data) => {
     console.log("%s: ", data);
-    ws.send("Hello from server ");
+    ws.send(`Hello from server : ${data}`);
   });
 });

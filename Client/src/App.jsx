@@ -6,8 +6,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>React Chat App</h1>
-
+        {/* <h1>React Chat App</h1> */}
         <Message />
       </div>
     </>
